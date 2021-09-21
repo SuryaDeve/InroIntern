@@ -1,8 +1,8 @@
 import smtplib
 import datetime
 
-gmail_user = 'surya96dev@gmail.com'
-gmail_password = 'Surya@961028'
+gmail_user = 'Sender@gmail.com'
+gmail_password = 'SenderPassword'
 
 Machine_ID = 10256
 
@@ -11,7 +11,7 @@ currentTime = datetime.datetime.now()
 Message = "Machine Started " + str(currentTime)
 
 sent_from = gmail_user
-to = ['surya281096@gmail.com']
+to = ['Receiver@gmail.com']
 subject = Machine_ID
 
 email_text = """\
